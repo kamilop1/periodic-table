@@ -2,22 +2,26 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #0D1117;
 }
 #periodic_table {
-    border: 1px solid black;
     margin: 3vh;
     width: 85vw;
     height: calc(85vw * 0.45);
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(9, 1fr);
+    background-color: #0D1117;
 }
 .chemical_button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0.1vw;
-    border: 1px solid black;
+    margin:1px;
+}
+.chemical_button:not(.chemical_button.empty){
+    cursor: pointer;
 }
 .chemical_button.metallic{
     background-color: #A6EBFE;
@@ -26,10 +30,10 @@ body{
     background-color: #F3C295;
 }
 .chemical_button:hover{
-    filter: brightness(95%)
+    filter: brightness(95%);
 }
 .chemical_button:active{
-    filter: brightness(85%)
+    filter: brightness(85%);
 }
 .chemical_button span:first-child {
     width: 100%;
@@ -37,10 +41,11 @@ body{
     font-size: 1.3vw;
 }
 .chemical_button span:last-child {
-    display: inline-block;
     text-align: center;
     font-size: 0.8vw;
-
+}
+.chemical_button.empty{
+    border: 0;
 }
 .display{
     width: 30vw;
@@ -48,4 +53,6 @@ body{
     padding: 0.3vw;
     border: 2px solid rgb(2, 185, 251);
     font-size: 0.9vw;
+    color:aliceblue;
+    text-align: center;
 }
