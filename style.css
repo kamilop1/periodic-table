@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#periodic_table {
+    border: 1px solid red;
+    width: 80vw;
+    height: calc(80vw * 0.45);
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+.chemical_button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid black;
+}
+.chemical_button span:first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+.chemical_button span:last-child {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8vw;
+
+}
+.display{
+    width: 20vw;
+    height: 12vh;
+    border: 1px solid blue;
+    margin: 50px
+}
