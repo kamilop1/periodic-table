@@ -25,6 +25,9 @@ body{
 .chemical_button.non_metallic{
     background-color: #F3C295;
 }
+.chemical_button:hover{
+    filter: brightness(95%)
+}
 .chemical_button:active{
     filter: brightness(85%)
 }
@@ -40,7 +43,9 @@ body{
 
 }
 .display{
-    width: 20vw;
-    height: 12vh;
-    border: 1px solid blue;
+    width: 30vw;
+    height: 13vh;
+    padding: 0.3vw;
+    border: 2px solid rgb(2, 185, 251);
+    font-size: 0.9vw;
 }
