@@ -19,6 +19,9 @@ function generate_periodic_table(json_data){
         if(chem_data.non_metallic == "true"){
             new_chem_el.classList.add("non_metallic")
         } 
+        if(chem_data.is_display == "true"){
+            new_chem_el.appendChild(document.querySelector(".display"))
+        }
         periodic_table.appendChild(new_chem_el);
     }
 }

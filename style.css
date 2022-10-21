@@ -10,7 +10,7 @@ body{
     height: calc(85vw * 0.45);
     display: grid;
     grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(7, 1fr) 0.5fr repeat(2,1fr);
     background-color: #0D1117;
 }
 .chemical_button{
@@ -29,10 +29,10 @@ body{
 .chemical_button.non_metallic{
     background-color: #F3C295;
 }
-.chemical_button:hover{
+.chemical_button:hover:not(.chemical_button.empty){
     filter: brightness(95%);
 }
-.chemical_button:active{
+.chemical_button:active:not(.chemical_button.empty){
     filter: brightness(85%);
 }
 .chemical_button span:first-child {
@@ -48,8 +48,9 @@ body{
     border: 0;
 }
 .display{
+    position:absolute;
+    left: 25%;
     width: 30vw;
-    height: 13vh;
     padding: 0.3vw;
     border: 2px solid rgb(2, 185, 251);
     font-size: 0.9vw;

@@ -8,7 +8,7 @@
     {"name":"Lithium","symbol":"He","atomic_number":3,"description":"Lithium is a chemical element with symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element."},
     {"name":"Beryllium","symbol":"He","atomic_number":4,"description":"Beryllium is a chemical element with symbol Be and atomic number 4. It is a relatively rare element in the universe, usually occurring as a product of the spallation of larger atomic nuclei that have collided with cosmic rays."},
 
-    {"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},
+    {"atomic_number":0},{"atomic_number":0, "is_display":"true"},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},
 
     {"name":"Boron","symbol":"B","atomic_number":5,"description":"Boron is a chemical element with symbol B and atomic number 5. Produced entirely by cosmic ray spallation and supernovae and not by stellar nucleosynthesis, it is a low-abundance element in the Solar system and in the Earth crust."},
     {"name":"Carbon","symbol":"C","atomic_number":6,"non_metallic":"true","description":"Carbon is a chemical element with symbol C and atomic number 6. It is nonmetallic and tetravalent making four electrons available to form covalent chemical bonds.It belongs to group 14 of periodic table."},
@@ -105,7 +105,7 @@
     {"name":"Livermorium","symbol":"Lv","atomic_number":116,"description":"Livermorium is a synthetic chemical element with symbol Lv and atomic number 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature."},
     {"name":"Tennesine","symbol":"Ts","atomic_number":117,"description":"Tennessine is a synthetic chemical element with symbol Ts and atomic number 117. It is the second-heaviest known element and the penultimate element of the 7th period of the periodic table."},
     {"name":"Oganesson","symbol":"Og","atomic_number":118,"description":"Oganesson is a synthetic chemical element with symbol Og and atomic number 118. It was first synthesized in 2002 by a joint team of Russian and American scientists at the Joint Institute for Nuclear Research in Dubna, Russia."},
-
+    {"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},
     {"atomic_number":0},{"atomic_number":0},{"atomic_number":0},{"atomic_number":0},
 
     {"name":"Cerium","symbol":"Ce","atomic_number":58,"description":"Cerium is a chemical element with symbol Ce and atomic number 58. Cerium is a soft, ductile and silvery-white metal that tarnishes when exposed to air, and it is soft enough to be cut with a knife."},
