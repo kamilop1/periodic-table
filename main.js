@@ -12,13 +12,13 @@ function generate_periodic_table(json_data){
         } else {
             new_chem_el.innerHTML=`<span><sub>${chem_data.atomic_number}</sub>${chem_data.symbol}</span><span>${chem_data.name}</span>`; 
             new_chem_el.classList.add("metallic")
+            new_chem_el.addEventListener("click",evt => {
+                document.querySelector(".display").innerHTML = chem_data.description;
+            })
         }
         if(chem_data.non_metallic == "true"){
             new_chem_el.classList.add("non_metallic")
         } 
-        new_chem_el.addEventListener("click",evt => {
-            document.querySelector(".display").innerHTML = chem_data.description;
-        })
         periodic_table.appendChild(new_chem_el);
     }
 }
